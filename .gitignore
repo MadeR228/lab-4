@@ -1,0 +1,25 @@
+# Великі файли даних IMDb (завантажуються окремо, див. README)
+imdb-data/
+*.tsv.gz
+
+# Результати роботи Spark
+imdb-results/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE і службові файли
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
